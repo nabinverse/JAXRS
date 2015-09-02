@@ -21,6 +21,7 @@ import org.apache.wink.common.model.multipart.InMultiPart;
 import org.apache.wink.common.model.multipart.InPart;
 
 
+
 import com.model.InputVO;
 import com.model.OutputVO;
 
@@ -39,5 +40,10 @@ public interface SimpleService {
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.APPLICATION_XML)
 	public Response createRecord(InputVO bean);
+	
+	@GET
+	@Path("/read/{uuid}")
+	@Produces(MediaType.APPLICATION_XML)
+	public Response readRecord(@PathParam("uuid") String uuid);
 	
 }

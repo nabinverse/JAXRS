@@ -6,8 +6,10 @@ import java.io.InputStream;
 import java.io.OutputStream;
 
 import javax.ws.rs.Consumes;
+import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.MultivaluedMap;
@@ -73,6 +75,18 @@ public class SimpleServiceImpl implements SimpleService{
 		OutputVO outputVO = new OutputVO();
 		outputVO.setPhone("8697042514");
 		outputVO.setName("NABIN");
+		return Response.status(200).entity(outputVO).header("CustomHeader", "CustomHeader").build();
+	}
+	
+	@Override
+	public Response readRecord(String uuid){
+		String returnStr = "Hello Nabin";
+		System.out.println("you passed is : "+uuid);
+		//code here
+		OutputVO outputVO = new OutputVO();
+		outputVO.setPhone("8697042514");
+		outputVO.setName("NABIN");
+		outputVO.setFileName("Hello world");
 		return Response.status(200).entity(outputVO).header("CustomHeader", "CustomHeader").build();
 	}
 	
