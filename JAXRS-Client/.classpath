@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/BBC/jaxrsjar/jackson-core-asl-1.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/BBC/jaxrsjar/jackson-jaxrs-1.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/BBC/jaxrsjar/jackson-mapper-asl-1.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/BBC/Work/Backups/apache-cxf-3.0.0/apache-cxf-3.0.0/lib/httpclient-4.3.3.jar"/>
+	<classpathentry kind="lib" path="C:/BBC/Work/Backups/apache-cxf-3.0.0/apache-cxf-3.0.0/lib/httpcore-4.3.2.jar"/>
+	<classpathentry kind="lib" path="C:/BBC/Work/Backups/apache-cxf-3.0.0/apache-cxf-3.0.0/lib/httpcore-nio-4.3.2.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.7.0_51"/>
+	<classpathentry kind="lib" path="C:/BBC/jar/apache-commons-lang.jar/apache-commons-lang.jar"/>
+	<classpathentry kind="lib" path="C:/BBC/Work/Backups/apache-tomcat-7.0.55-windows-x64/apache-tomcat-7.0.55/lib/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="C:/BBC/Work/Backups/apache-cxf-3.0.0/apache-cxf-3.0.0/lib/cxf-core-3.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/BBC/jaxrsjar/jsr311-api-1.1.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
